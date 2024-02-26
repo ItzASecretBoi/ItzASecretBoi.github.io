@@ -259,6 +259,28 @@
 /* Credit footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Styling for credit footer text */
+.credit-txt {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.credit-icon {
+  display: none;
+  right: 5px;
+}
+.credit-footer {
+  position: relative;
+  right: 15px;
+}
+
+/* Switches text color for credit footer for dark/light mode */
+
+ .credit-txt-clr{
+     color: #FFF !important;
+}
+
+
 
 /*-----------------------parallax-----------------------*/
 #object1 {
