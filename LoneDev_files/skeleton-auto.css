@@ -51,7 +51,20 @@
   
   }
   
-  
+/* Media query for screens up to 600 pixels wide */
+@media screen and (max-width: 600px) {
+  .button-wrapper {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .button {
+    padding: 2% 5%; /* Adjust padding for smaller screens */
+    width: 70%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove maximum width for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}  
+
   /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   /* NOTE
