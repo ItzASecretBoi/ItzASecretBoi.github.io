@@ -259,64 +259,6 @@
 /* Credit footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Styling for credit footer text */
-.credit-txt {
-  font-weight: 700;
-  font-size: 15px;
-  text-decoration: none;
-}
-
-.credit-icon {
-  display: none;
-  right: 5px;
-}
-.credit-footer {
-  position: relative;
-  right: 15px;
-}
-
-/* Switches text color for credit footer for dark/light mode */
-
- .credit-txt-clr{
-     color: #FFF !important;
-}
-
-/* CSS for screens wider than 600 pixels */
-.container {
-  width: 100%; /* Responsive width */
-}
-
-.button-wrapper {
-  display: flex;
-  flex-direction: column; /* Stack buttons vertically */
-  align-items: center; /* Center buttons horizontally */
-  margin-top: 20px; /* Adjust margin for desktop */
-}
-
-.button-entrance {
-  margin: 10px 0; /* Adjust vertical margin between buttons */
-}
-
-.button {
-  padding: 10px 20px;
-  width: 200px; /* Set a fixed width for the buttons */
-  color: #fff;
-  text-decoration: none;
-  text-align: center; /* Center text within the buttons */
-}
-
-/* Media query for screens up to 600 pixels wide */
-@media screen and (max-width: 600px) {
-  .button-wrapper {
-    margin-top: 10px; /* Adjust margin for smaller screens */
-    align-items: center; /* Center buttons horizontally on mobile */
-  }
-
-  .button {
-    padding: 8px 16px; /* Adjust padding for smaller screens */
-    width: 150px; /* Adjust width for smaller screens */
-    font-size: 14px; /* Adjust font size for smaller screens */
-  }
-}
 
 /*-----------------------parallax-----------------------*/
 #object1 {
