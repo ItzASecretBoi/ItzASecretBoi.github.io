@@ -90,7 +90,7 @@
 		animation: gradient 15s ease infinite;
 		width: 100vw;
 		height: 100vh;
-		overflow: hidden;
+		overflow: auto;
     color: #FFFFFF;
     font-family: var(--font);
 		font-weight: 300 !important;
