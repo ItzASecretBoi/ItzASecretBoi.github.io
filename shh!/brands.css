@@ -29,6 +29,19 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.button-discord-wrapper {
+  display: flex;
+  gap: 20px; /* spacing between buttons and widget */
+  align-items: flex-start; /* align tops */
+  justify-content: center;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 :root {
   --bgColor: #223344;
   --bgColor2: #090a0f;
