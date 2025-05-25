@@ -81,6 +81,23 @@
     --font: 'Karla', sans-serif;
     --delay: .3s; }
 
+.secret {
+  font-size: 1.2rem;
+  white-space: nowrap;
+  text-align: center;
+  overflow-x: auto; /* Allows scrolling if text overflows */
+}
+
+
+.smaller {
+  font-size: 1.2rem; /* or your preferred size */
+  margin-top: -3.0em;
+  margin-bottom: -3.0em;
+}
+
+
+
+
   /* Background
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
